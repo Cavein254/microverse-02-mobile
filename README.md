@@ -2,10 +2,7 @@
 
 <div align="center">
 
-  <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/vxatfbgm79t1j6ksshqc" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Portfolio Project</b></h3>
+  <h1><b>Portfolio Project</b></h1>
 
 </div>
 
@@ -21,6 +18,9 @@
   - [Setup](#setup)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -79,12 +79,32 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Colorful Header**
+- [ ] **Desktop Support**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Cavein254/microverse-02-mobile/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+Show your support by giving this project a :star:
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank the Microverse Team for the enomous support :fire: :fire: :rocket:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
