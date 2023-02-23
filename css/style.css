@@ -3,6 +3,7 @@
   margin: 0;
 }
 body {
+  font-family: "Poppins", san-serif;
   background-image: url("../img/background.png");
   background-repeat: no-repeat;
 }
@@ -18,7 +19,6 @@ header {
   margin: 1em 1.8em;
 }
 .logo {
-  font-family: "Poppins", san-serif;
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 1.4rem;
@@ -29,7 +29,6 @@ header {
   color: #6070ff;
 }
 .hero-main-text {
-  font-family: "Poppins", san-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
@@ -38,14 +37,13 @@ header {
 }
 .hero-minor-text {
   color: #344563;
-  font-family: "Poppins", san-serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.8rem;
 }
 .text-connect {
-  font-family: "Poppins", san-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
