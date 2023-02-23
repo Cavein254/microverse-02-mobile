@@ -1,16 +1,57 @@
+.container {
+  margin-left: 5%;
+}
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 2%;
 }
 .logo {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
   text-align: center;
   color: #6070ff;
 }
 .bars {
   color: #6070ff;
+}
+.hero-main-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #172b4d;
+}
+.hero-minor-text {
+  color: #344563;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+.text-connect {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #7f8cff;
+}
+.icons-hero {
+  color: #505f79;
+  font-size: 1.8rem;
+}
+.icons-hero span {
+  padding-right: 1.4rem;
+}
+
+@media only screen and (max-width: 375px) {
+}
+
+@media only screen and (min-width: 376px) and (max-width: 768px) {
 }
