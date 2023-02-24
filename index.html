@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,50 +21,59 @@
   </head>
   <body>
     <header>
-      <div>
-        <h1 class="logo">My Logo</h1>
+      <div class="logo">
+        <a href="#">
+          <h1>My Logo</h1>
+        </a>
       </div>
       <div>
-        <span class="bars">
-          <i class="fa-solid fa-bars"></i>
-        </span>
+        <nav>
+          <span class="bars">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        </nav>
       </div>
     </header>
-    <div class="container">
-      <section>
+    <main>
+      <div class="hero">
         <div>
-          <h2 class="hero-main-text">I'm Mariane Glad to see you!</h2>
-          <h4 class="hero-minor-text">
+          <h1 class="hero-name">I'm Mariane</h1>
+        </div>
+        <div>
+          <h2 class="hero-msg">Glad to see you!</h2>
+        </div>
+        <div class="hero-minor-text">
+          <p>
             I'm a software! I can help you build a product, feature or website
             Look through some of my work and experience! If you like what you
             see and have a project you need coded, don't hestiate to contact me.
-          </h4>
+          </p>
         </div>
+      </div>
+      <div>
+        <a href="#" class="text-connect">
+          <h5>LET'S CONNECT</h5>
+        </a>
         <div>
-          <div class="text-connect">
-            <h5>LET'S CONNECT</h5>
-          </div>
-          <div>
-            <div class="icons-hero">
-              <span>
-                <img src="./img/twitter.svg" alt="twitter logo" />
-              </span>
-              <span>
-                <img src="./img/linkedin.svg" alt="linkedin logo" />
-              </span>
-              <span>
-                <img src="./img/medium.svg" alt="medium logo" />
-              </span>
-              <span>
-                <img src="./img/github.svg" alt="github logo" />
-              </span>
-              <span>
-                <img src="./img/angellist.svg" alt="angellist logo" />
-              </span>
-            </div>
-          </div>
+          <ul class="icons-hero">
+            <li>
+              <img src="./img/twitter.svg" alt="twitter logo" />
+            </li>
+            <li>
+              <img src="./img/linkedin.svg" alt="linkedin logo" />
+            </li>
+            <li>
+              <img src="./img/medium.svg" alt="medium logo" />
+            </li>
+            <li>
+              <img src="./img/github.svg" alt="github logo" />
+            </li>
+            <li>
+              <img src="./img/angellist.svg" alt="angellist logo" />
+            </li>
+          </ul>
         </div>
-      </section>
-    </div>
+      </div>
+    </main>
   </body>
 </html>

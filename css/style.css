@@ -2,23 +2,17 @@
   padding: 0;
   margin: 0;
 }
-
 body {
-  font-family: "oppins", sans-serif;
-  background-image: url("../img/background.png");
-  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
 }
 
-.container {
-  margin: 5%;
-  padding-top: 3rem;
-}
-
+/* start of header  */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1em 1.8em;
+  padding: 0 1.5rem;
+  margin-top: 3.625rem;
 }
 
 .logo {
@@ -26,22 +20,45 @@ header {
   font-size: 1.2rem;
   line-height: 1.4rem;
   text-align: center;
+  padding-left: 24 px;
+}
+
+.logo > a {
+  text-decoration: none;
   color: #6070ff;
 }
 
 .bars {
   color: #6070ff;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+/* end of header  */
+
+/* start of hero  */
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8.625rem;
+  margin-left: 1.5rem;
 }
 
-.hero-main-text {
+.hero-name {
   font-style: normal;
   font-weight: 700;
-  font-size: 2rem;
-  line-height: 2rem;
+  font-size: 2.5 rem;
+  line-height: 3.25 rem;
   color: #172b4d;
 }
-
+.hero-msg {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5 rem;
+  line-height: 3.25 rem;
+  color: #172b4d;
+}
 .hero-minor-text {
+  padding-top: 0.75rem;
   color: #344563;
   font-style: normal;
   font-weight: 400;
@@ -50,24 +67,39 @@ header {
 }
 
 .text-connect {
+  text-decoration: none;
+  margin-top: 0.75rem;
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
-  line-height: 1.2rem;
+  line-height: 1.5rem;
   color: #7f8cff;
 }
 
 .icons-hero {
+  list-style-type: none;
   color: #505f79;
   font-size: 0.8rem;
+  margin-top: 0.75rem;
 }
 
-.icons-hero span {
-  padding-right: 1rem;
+.icons-hero > li {
+  /* padding-right: 1rem; */
+  text-decoration: none;
+  display: inline;
 }
 
-/* @media only screen and (max-width: 375px) {
+.icons-hero > li > img {
+  padding-right: 0.8rem;
 }
 
-@media only screen and (min-width: 376px) and (max-width: 768px) {
+@media only screen and (min-width: 375px) and (max-width: 420px) and (orientation: portrait) {
+  body {
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-position: 0 0 0 0;
+  }
+}
+/* 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 } */
