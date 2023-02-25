@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+  margin-top: 3.625rem;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  text-align: center;
+  padding-left: 24px;
+}
+
+.logo > a {
+  text-decoration: none;
+  color: #6070ff;
+}
+
+.bars {
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8.625rem;
+  margin-left: 1.5rem;
+}
+
+.hero-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  color: #172b4d;
+}
+
+.hero-msg {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  color: #172b4d;
+}
+
+.hero-minor-text {
+  padding-top: 0.75rem;
+  color: #344563;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+
+.text-connect {
+  text-decoration: none;
+  margin-top: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #7f8cff;
+}
+
+.icons-hero {
+  list-style-type: none;
+  color: #505f79;
+  font-size: 0.8rem;
+  margin-top: 0.75rem;
+}
+
+.icons-hero > li {
+  text-decoration: none;
+  display: inline;
+}
+
+.icons-hero > li > img {
+  padding-right: 0.8rem;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 420px) and (orientation: portrait) {
+  body {
+    background-image: url("../img/header-shapes\ mobile.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0 0 0;
+  }
+}
