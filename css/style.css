@@ -35,7 +35,7 @@ header {
   font-size: 1.5rem;
 }
 
-main {
+.mx-container {
   display: flex;
   flex-direction: column;
   margin-top: 8.625rem;
@@ -45,16 +45,16 @@ main {
 .hero-name {
   font-style: normal;
   font-weight: 700;
-  font-size: 2.5 rem;
-  line-height: 3.25 rem;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
   color: #172b4d;
 }
 
 .hero-msg {
   font-style: normal;
   font-weight: 700;
-  font-size: 2.5 rem;
-  line-height: 3.25 rem;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
   color: #172b4d;
 }
 
@@ -226,7 +226,7 @@ aside {
 .lang-container {
   margin: 1rem 1.25rem;
   border-radius: 1rem;
-  background-color: #f7f7f9;
+  padding-left: 2.3rem;
 }
 
 .lang {
