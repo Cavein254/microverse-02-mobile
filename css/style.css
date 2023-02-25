@@ -106,7 +106,7 @@ main {
   display: flex;
   flex-direction: column;
   border-radius: 1rem;
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid #dfe1e6;
 }
 
@@ -115,13 +115,16 @@ main {
   flex-direction: column;
   padding: 1rem;
 }
+
 .card-image {
   width: 100%;
 }
-.card-image > img {
+
+.card-image > li > img {
   object-fit: cover;
   width: 100%;
 }
+
 .card-text {
   margin-top: 0.75rem;
   color: #172b4d;
@@ -142,6 +145,7 @@ main {
   flex-direction: row;
   align-items: center;
 }
+
 .card-canopy {
   color: #344563;
 }
@@ -166,6 +170,7 @@ main {
   list-style-type: none;
   margin-top: 0.75rem;
 }
+
 .languages > li {
   display: inline-block;
   color: #6070ff;
@@ -180,7 +185,12 @@ main {
   border-radius: 0.5rem;
   padding: 0.4rem 0.8rem;
   margin-top: 1rem;
-  background-color: #ffffff;
+  background-color: #fff;
+}
+
+.see-link:hover {
+  background-color: #6070ff;
+  color: #fff;
 }
 
 .see-link > a {
@@ -189,6 +199,10 @@ main {
   font-weight: 500;
   line-height: 1.5rem;
   color: #396df2;
+}
+
+.see-link > a:hover {
+  color: white;
 }
 
 aside {
@@ -202,7 +216,7 @@ aside {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  color: #000000;
+  color: #000;
   font-weight: 500;
   font-size: 1.25rem;
   line-height: 1.5rem;
