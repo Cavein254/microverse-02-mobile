@@ -1,12 +1,12 @@
 * {
   padding: 0;
   margin: 0;
+  background-image: url("../img/header-mobile.png");
 }
 
 body {
   font-family: "Poppins", sans-serif;
   background-color: #e5e5e5;
-  background-image: url("../img/header-shapes\ mobile.svg");
   background-repeat: no-repeat;
   background-position: 0 0 0 0;
 }
@@ -16,7 +16,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 1.5rem;
-  margin-top: 3.625rem;
+  padding-top: 3.625rem;
 }
 
 .logo {
@@ -24,7 +24,7 @@ header {
   font-size: 1.2rem;
   line-height: 1.4rem;
   text-align: center;
-  padding-left: 24px;
+  padding-left: 1.5rem;
 }
 
 .logo > a {
@@ -41,8 +41,8 @@ header {
 .mx-container {
   display: flex;
   flex-direction: column;
-  padding-top: 8.625rem;
-  padding-left: 1.5rem;
+  margin-top: 8.625rem;
+  margin-left: 1.5rem;
   background-color: #fff;
 }
 
@@ -343,21 +343,39 @@ hr {
   color: #fff;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 420px) and (orientation: portrait) {
+@media only screen and (min-width: 175px) and (max-width: 420px) and (orientation: portrait) {
   body {
-    background-image: url("../img/header-shapes\ mobile.svg");
+    background-image: url("../img/header-background-mobile.png");
     background-repeat: no-repeat;
     background-position: 0 0 0 0;
+  }
+
+  .nav-container {
+    display: none;
+  }
+
+  .nav-space {
+    display: none;
   }
 }
 
 @media (min-width: 421px) {
+  body {
+    background-image: url("../img/header2.png");
+    background-repeat: no-repeat;
+    background-position: 0 0 0 0;
+  }
+
+  header {
+    margin: 1.5625rem 9.625rem;
+    padding: 0;
+  }
+
   .top-bars {
     display: none;
   }
 
   .nav-container {
-    border: 1px solid blue;
     display: flex;
     flex-grow: 1;
   }
@@ -367,10 +385,23 @@ hr {
     flex-grow: 2;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .nav-link {
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: space-between;
+    color: #344563;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+  }
+
+  .mx-container {
+    margin: 18rem 16.25rem 2rem 16.25rem;
   }
 }
