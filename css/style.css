@@ -6,6 +6,9 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #e5e5e5;
+  background-image: url("../img/header-shapes\ mobile.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0 0 0;
 }
 
 header {
@@ -38,8 +41,9 @@ header {
 .mx-container {
   display: flex;
   flex-direction: column;
-  margin-top: 8.625rem;
-  margin-left: 1.5rem;
+  padding-top: 8.625rem;
+  padding-left: 1.5rem;
+  background-color: #fff;
 }
 
 .hero-name {
@@ -248,10 +252,93 @@ hr {
   color: #dfe1e6;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 420px) and (orientation: portrait) {
-  body {
-    background-image: url("../img/header-shapes\ mobile.svg");
-    background-repeat: no-repeat;
-    background-position: 0 0 0 0;
-  }
+.contact {
+  background-image: url('../img/contact.png');
+  background-repeat: no-repeat;
+  background-position: 0 0 0 0;
+  margin-top: 7rem;
+}
+
+.form-container {
+  margin: 7rem 1.5rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-header {
+  padding-top: 8.3rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #fff;
+  line-height: 3.25rem;
+  text-align: center;
+}
+
+.form-desc {
+  color: #ebebff;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding-top: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-desc > p {
+  text-align: center;
+}
+
+.form-input {
+  width: 95%;
+  margin-top: 3rem;
+}
+
+.form-val > input {
+  width: 85%;
+  border: 1px solid #cfd8dc;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #172b4d;
+}
+
+.form-val > textarea {
+  width: 85%;
+  border: 1px solid #cfd8dc;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  padding: 1em;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #172b4d;
+}
+
+.btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form-btn {
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  padding: 0.8rem 1rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-align: center;
+  align-items: center;
+  color: #6070ff;
+  margin-bottom: 4.5rem;
+}
+
+.form-btn:hover {
+  background-color: #6070ff;
+  color: #fff;
 }
