@@ -6,6 +6,9 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #e5e5e5;
+  background-image: url("../img/header-shapes\ mobile.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0 0 0;
 }
 
 header {
@@ -249,6 +252,13 @@ hr {
   color: #dfe1e6;
 }
 
+.contact {
+  background-image: url('../img/contact.png');
+  background-repeat: no-repeat;
+  background-position: 0 0 0 0;
+  margin-top: 7rem;
+}
+
 .form-container {
   margin: 7rem 1.5rem 1.5rem 1.5rem;
   display: flex;
@@ -267,7 +277,7 @@ hr {
 }
 
 .form-desc {
-  color: #EBEBFF;
+  color: #ebebff;
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -279,35 +289,34 @@ hr {
 .form-desc > p {
   text-align: center;
 }
+
 .form-input {
-  width:95%;
-  margin-top:3rem;
+  width: 95%;
+  margin-top: 3rem;
 }
 
 .form-val > input {
-  width:85%;
-  padding-bottom: 1rem;
-  border: 1px solid #CFD8DC;
+  width: 85%;
+  border: 1px solid #cfd8dc;
   margin: 0.5rem 0;
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.25rem;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .form-val > textarea {
   width: 85%;
-  padding-bottom: 1rem;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 0.5rem;
   margin-top: 0.5rem;
   padding: 1em;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.25rem;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .btn-wrapper {
@@ -317,28 +326,14 @@ hr {
 }
 
 .form-btn {
-  margin-top:1rem;
+  margin-top: 1rem;
   border-radius: 0.5rem;
-  backgound-color: #fff;
-  padding:0.8rem 1rem;
-  font-weight:500;
+  background-color: #fff;
+  padding: 0.8rem 1rem;
+  font-weight: 500;
   font-size: 1.1rem;
   text-align: center;
   align-items: center;
-  color: #6070FF;
-  margin-bottom:4.5rem;
-
-}
-@media only screen and (min-width: 375px) and (max-width: 420px) and (orientation: portrait) {
-  body {
-    background-image: url("../img/header-shapes\ mobile.svg");
-    background-repeat: no-repeat;
-    background-position: 0 0 0 0;
-  }
-  .contact {
-    background-image: url('../img/contact.png');
-    background-repeat: no-repeat;
-    background-position: 0 0 0 0;
-    margin-top: 7rem;
-  }
+  color: #6070ff;
+  margin-bottom: 4.5rem;
 }
