@@ -45,7 +45,10 @@
 
 - **Mobile version Header**
 
+
 - **Mobile Version Hero**
+- **Mobile Version cards**
+- **Mobile Version contact form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
