@@ -334,6 +334,11 @@ hr {
   font-size: 1.1rem;
   text-align: center;
   align-items: center;
-  color: #6070ff;
+  color:#6070ff;
   margin-bottom: 4.5rem;
+}
+
+.form-btn:hover {
+  background-color: #6070ff;
+  color: #fff;
 }
